@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/backgroundLp.png") #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#form {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 27.5rem;
+}
+#form #logo {
+  width: 11rem;
+}
+#form #textPart .form-label {
+  background-color: #ced4da;
+  border-radius: 5px 0 0 5px;
+  margin-right: -0.25rem;
+  width: 145px;
+}
+#form #textPart .form-control {
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+}
+
+p {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

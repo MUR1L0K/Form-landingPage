@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumo a Marte - OneBitX</title>
+    <link
+      rel="shortcut icon"
+      href="./images/FAVICON-SPACEX.png"
+      type="image/x-icon"
+    />
+    <!-- link css com sass normal -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- link css bootstrap -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- link js bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <form id="form" class="container my-5 px-2 pt-3 pb-2">
+        <div class="container text-center">
+          <img
+            src="images/logoOneBitDark.png"
+            alt="Logo OneBitCode"
+            id="logo"
+          />
+        </div>
+        <div id="textPart" class="container">
+          <p class="mt-4 mb-1">1- Qual o seu Nome?</p>
+          <div class="d-flex">
+            <label for="name"
+              ><span class="form-label p-2 pe-0 mb-2 d-block"
+                >Primeiro Nome:</span
+              ></label
+            >
+            <input
+              type="text"
+              class="form-control ms-1"
+              placeholder="Digite Aqui"
+              id="name"
+            />
+          </div>
+          <div class="d-flex">
+            <label for="lastName"
+              ><span class="form-label p-2 pe-0 mb-3 d-block"
+                >Segundo Nome:</span
+              ></label
+            >
+            <input
+              type="text"
+              class="form-control ms-1"
+              placeholder="Digite Aqui"
+              id="lastName"
+            />
+          </div>
+
+          <p class="mb-1">2- Qual seu Gênero?</p>
+          <div class="d-flex row">
+            <div>
+              <input
+                type="radio"
+                name="genre"
+                id="man"
+                class="me-2 mb-0 form-check-input"
+              /><label for="man"><p class="mb-0">Homem</p></label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="genre"
+                id="woman"
+                class="me-2 form-check-input"
+              /><label for="woman"><p class="mb-0">Mulher</p></label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="genre"
+                id="noGenre"
+                class="me-2 form-check-input"
+                checked
+              /><label for="noGenre"
+                ><p class="mb-0">Prefiro não informar</p></label
+              >
+            </div>
+          </div>
+          <p class="mt-2 mb-1">3- Marque os treinamentos que você fez?</p>
+          <div class="d-flex row container">
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="trainings"
+                id="one"
+                role="switch"
+              />
+              <label for="one" class="form-check-label"
+                ><p class="mb-0 mt-0">
+                  Treinamento Básico de Astronauta
+                </p></label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="trainings"
+                id="two"
+                role="switch"
+              />
+              <label for="two" class="form-check-label"
+                ><p class="mb-0 mt-0">Treinamento Físico Básico</p></label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="trainings"
+                id="three"
+                role="switch"
+              />
+              <label for="three" class="form-check-label"
+                ><p class="mb-0 mt-0">
+                  Treinamento Avançado de Astronauta
+                </p></label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="trainings"
+                id="four"
+                role="switch"
+              />
+              <label for="four" class="form-check-label"
+                ><p class="mb-0 mt-0">Treinamento Físico Intenso</p></label
+              >
+            </div>
+          </div>
+          <p class="mt-2 mb-1">4- Quais você acha que são suas qualidades?</p>
+          <div class="d-flex flex-wrap">
+            <div class="form-check form-check-inline">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="qualities"
+                id="oneQ"
+              />
+              <label for="oneQ" class="form-check-label"
+                ><p class="m-0">Proativo</p></label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="qualities"
+                id="twoQ"
+              />
+              <label for="twoQ" class="form-check-label"
+                ><p class="m-0">Resistente</p></label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="qualities"
+                id="threeQ"
+              />
+              <label for="threeQ" class="form-check-label"
+                ><p class="m-0">Não vomito fácil</p></label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="qualities"
+                id="fourQ"
+              />
+              <label for="fourQ" class="form-check-label"
+                ><p class="m-0">Não temo marcioano</p></label
+              >
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                type="checkbox"
+                class="form-check-input me-1"
+                name="qualities"
+                id="fiveQ"
+              />
+              <label for="fiveQ" class="form-check-label"
+                ><p class="m-0">Já vi todos os Star Wars</p></label
+              >
+            </div>
+          </div>
+          <div class="mt-4 text-center">
+            <button class="btn btn-outline-success mb-3 btnSucess">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="text-center">
+        <p class="my-0">&copy;Feito por Murilo Klein - 2023</p>
+      </div>
+    </main>
+  </body>
+</html>
